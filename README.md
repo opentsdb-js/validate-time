@@ -26,7 +26,7 @@ To create an OpenTSDB time validator,
 var validate = require( 'opentsdb-validate-time' );
 ```
 
-The validator is exported as a singleton and has the following methods...
+The validator is exported as a class instance (in Node, as a singleton) and has the following methods...
 
 
 #### validate.absolute( date )
