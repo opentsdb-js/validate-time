@@ -67,7 +67,7 @@ Validates whether an input string is a relative time. Relative times have a time
 validate.relative( '72000ms-ago' );
 ```
 
-Note: the unit for a month is `n`.
+Note: the unit for months is `n`.
 
 
 #### validate.format( time )
