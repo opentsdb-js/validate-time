@@ -1,6 +1,6 @@
 {
   "name": "opentsdb-validate-time",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "OpenTSDB utility providing time validation.",
   "author": {
     "name": "Athan Reines",
