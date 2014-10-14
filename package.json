@@ -4,7 +4,7 @@
   "description": "OpenTSDB utility providing time validation.",
   "author": {
     "name": "Athan Reines",
-    "email": "athan@nodeprime.com"
+    "email": "kgryte@gmail.com"
   },
   "contributors": [
     {}
@@ -17,10 +17,10 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/opentsdb-js/opentsdb-validate-time.git"
+    "url": "git://github.com/opentsdb-js/validate-time.git"
   },
   "bugs": {
-    "url": "https://github.com/opentsdb-js/opentsdb-validate-time/issues"
+    "url": "https://github.com/opentsdb-js/validate-time/issues"
   },
   "keywords": [
     "opentsdb",

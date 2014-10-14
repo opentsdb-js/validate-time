@@ -98,7 +98,7 @@ $ node ./examples/index.js
 ```
 
 
----
+
 ## Tests
 
 ### Unit
@@ -123,11 +123,11 @@ $ make test-cov
 Istanbul creates a `./reports/coverage` directory. To access an HTML version of the report,
 
 ``` bash
-$ open reports/coverage/lcov-report/index.html
+$ make view-cov
 ```
 
 
----
+
 ## License
 
 [MIT license](http://opensource.org/licenses/MIT). 
@@ -142,17 +142,17 @@ Copyright &copy; 2014. Athan Reines.
 [npm-image]: http://img.shields.io/npm/v/opentsdb-validate-time.svg
 [npm-url]: https://npmjs.org/package/opentsdb-validate-time
 
-[travis-image]: http://img.shields.io/travis/opentsdb-js/opentsdb-validate-time/master.svg
-[travis-url]: https://travis-ci.org/opentsdb-js/opentsdb-validate-time
+[travis-image]: http://img.shields.io/travis/opentsdb-js/validate-time/master.svg
+[travis-url]: https://travis-ci.org/opentsdb-js/validate-time
 
-[coveralls-image]: https://img.shields.io/coveralls/opentsdb-js/opentsdb-validate-time/master.svg
-[coveralls-url]: https://coveralls.io/r/opentsdb-js/opentsdb-validate-time?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/opentsdb-js/validate-time/master.svg
+[coveralls-url]: https://coveralls.io/r/opentsdb-js/validate-time?branch=master
 
-[dependencies-image]: http://img.shields.io/david/opentsdb-js/opentsdb-validate-time.svg
-[dependencies-url]: https://david-dm.org/opentsdb-js/opentsdb-validate-time
+[dependencies-image]: http://img.shields.io/david/opentsdb-js/validate-time.svg
+[dependencies-url]: https://david-dm.org/opentsdb-js/validate-time
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/opentsdb-js/opentsdb-validate-time.svg
-[dev-dependencies-url]: https://david-dm.org/dev/opentsdb-js/opentsdb-validate-time
+[dev-dependencies-image]: http://img.shields.io/david/dev/opentsdb-js/validate-time.svg
+[dev-dependencies-url]: https://david-dm.org/dev/opentsdb-js/validate-time
 
-[github-issues-image]: http://img.shields.io/github/issues/opentsdb-js/opentsdb-validate-time.svg
-[github-issues-url]: https://github.com/opentsdb-js/opentsdb-validate-time/issues
+[github-issues-image]: http://img.shields.io/github/issues/opentsdb-js/validate-time.svg
+[github-issues-url]: https://github.com/opentsdb-js/validate-time/issues
