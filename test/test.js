@@ -147,8 +147,6 @@ describe( 'validate', function tests() {
 		it( 'should properly validate a timestamp', function test() {
 			assert.ok( validate.timestamp( Date.now() ) );
 			assert.ok( validate.timestamp( Math.round( Date.now()/1000 ) ) ); // seconds
-
-			assert.notOk( validate.timestamp( 45 ) );
 		});
 
 	}); // end TESTS timestamp
@@ -204,7 +202,6 @@ describe( 'validate', function tests() {
 			assert.strictEqual( validate.format( Date.now() ), 'timestamp' );
 			assert.strictEqual( validate.format( Math.round( Date.now()/1000 ) ), 'timestamp' );
 			
-			assert.notEqual( validate.format( 45 ), 'timestamp' );
 			assert.notEqual( validate.format( '8m-ago' ), 'timestamp' );
 			assert.notEqual( validate.format( '2014/08/02 09:45' ), 'timestamp' );
 		});
